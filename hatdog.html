@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h2>Miss mo ba?</h2>
+  <script>
+  function showMissmo() {
+    if(document.frmMissmo.missmo.value ==
+       "Yes" ) {
+         alert("Mali 'yan idol, move ka na") ;
+       } else {
+         alert("Tama 'yan, kalimutan mo na siya") ;
+       }
+  }
+  </script>
+</head>
+<body>
+  <form name="frmMissmo">
+    <input type="radio" name="missmo"
+        value="Yes" onclick="showMissmo() "> 
+      Yes
+    <input type="radio" name="missmo"
+        value="No" onclick="showMissmo() "> 
+      No
+  </form>
+</body>
+</html>
+
+
+
